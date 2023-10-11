@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a; /* Background color */
+  color: #fff;
+}
+
+h1 {
+  color: #f0d618; /* Crypto gold color */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f0d618; /* Crypto gold color */
+  color: #333;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #ffbb00; /* Hover color */
+}
+
+#clickButton {
+  font-size: 18px;
+}
+
+#buyAutoMiner {
+  font-size: 16px;
+}
+
+#clicks,
+#autoMiners,
+#bitcoinBalance,
+#ethereumBalance,
+#bitcoinPrice,
+#ethereumPrice {
+  font-size: 24px;
+}
+
+#autoMiners {
+  color: #5effbd; /* Light green color */
+}
+
+#cryptoImage {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border: 1px solid #f0d618; /* Crypto gold border */
+  border-radius: 50%; /* Makes the image circular */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+/* Adding a crypto background pattern */
+body {
+  background: url('crypto-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
